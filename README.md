@@ -8,9 +8,20 @@ Streakers Calendar is a calendar web application for streak runners, built using
 
     git clone https://github.com/tchung1118/streakerscalendar $GOPATH/src/github.com/tchung1118/streakerscalendar
 
+### Install dependencies:
+
+    npm install
+
+### Build:
+
+    npm run build
+
 ### Start the web server:
 
    revel run github.com/tchung1118/streakerscalendar
+
+### Connect to:
+    http://localhost:9000/
 
 ## Code Layout
 
