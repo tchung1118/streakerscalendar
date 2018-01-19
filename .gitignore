@@ -3,4 +3,5 @@ tmp/
 routes/
 node_modules/
 package-lock.json
+app/client/publish/
 
