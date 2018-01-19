@@ -1,6 +1,6 @@
 # Streakers Calendar
 
-No, not THOSE streakers.
+No, not THOSE [streakers](https://en.wikipedia.org/wiki/Streaking).
 
 Streakers Calendar is a calendar web application for streak runners, built using Revel (Go) and React.
 
