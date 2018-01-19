@@ -1,6 +1,6 @@
 # Streakers Calendar
 
-No, not THOSE streakers.
+No, not THOSE [streakers](https://en.wikipedia.org/wiki/Streaking).
 
 Streakers Calendar is a calendar web application for streak runners, built using Revel (Go) and React.
 
@@ -8,9 +8,21 @@ Streakers Calendar is a calendar web application for streak runners, built using
 
     git clone https://github.com/tchung1118/streakerscalendar $GOPATH/src/github.com/tchung1118/streakerscalendar
 
+### Install dependencies:
+
+    npm install
+
+### Build:
+
+    npm run build
+
 ### Start the web server:
 
-   revel run github.com/tchung1118/streakerscalendar
+    revel run github.com/tchung1118/streakerscalendar
+
+### Local server running at:
+
+[http://localhost:9000/](http://localhost:9000/)
 
 ## Code Layout
 
