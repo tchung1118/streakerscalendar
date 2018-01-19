@@ -8,7 +8,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "./node_modules/.bin/webpack"
+    "build": "./node_modules/.bin/webpack -d"
   },
   "repository": {
     "type": "git",
@@ -21,6 +21,8 @@
   },
   "homepage": "https://github.com/tchung1118/streakerscalendar#readme",
   "dependencies": {
+    "lodash": "^4.17.4",
+    "material-ui": "^1.0.0-beta.29",
     "react": "^16.2.0",
     "react-dom": "^16.2.0"
   },
