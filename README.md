@@ -18,10 +18,11 @@ Streakers Calendar is a calendar web application for streak runners, built using
 
 ### Start the web server:
 
-   revel run github.com/tchung1118/streakerscalendar
+    revel run github.com/tchung1118/streakerscalendar
 
-### Connect to:
-    http://localhost:9000/
+### Local server running at:
+
+[http://localhost:9000/](http://localhost:9000/)
 
 ## Code Layout
 
