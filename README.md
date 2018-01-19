@@ -1,15 +1,16 @@
-# Welcome to Revel
+# Streakers Calendar
 
-A high-productivity web framework for the [Go language](http://www.golang.org/).
+No, not THOSE streakers.
 
+Streakers Calendar is a calendar web application for streak runners, built using Revel (Go) and React.
+
+### Clone it to the right directory:
+
+    git clone https://github.com/tchung1118/streakerscalendar $GOPATH/src/github.com/tchung1118/streakerscalendar
 
 ### Start the web server:
 
-   revel run myapp
-
-### Go to http://localhost:9000/ and you'll see:
-
-    "It works"
+   revel run github.com/tchung1118/streakerscalendar
 
 ## Code Layout
 
@@ -40,5 +41,3 @@ The directory structure of a generated Revel application:
 * The [Revel guides](http://revel.github.io/manual/index.html).
 * The [Revel sample apps](http://revel.github.io/examples/index.html).
 * The [API documentation](https://godoc.org/github.com/revel/revel).
-
-# streakerscalendar
