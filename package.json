@@ -21,10 +21,11 @@
   },
   "homepage": "https://github.com/tchung1118/streakerscalendar#readme",
   "dependencies": {
+    "babel-polyfill": "^6.26.0",
     "lodash": "^4.17.4",
-    "material-ui": "^1.0.0-beta.29",
     "react": "^16.2.0",
-    "react-dom": "^16.2.0"
+    "react-dom": "^16.2.0",
+    "semantic-ui-react": "^0.77.2"
   },
   "devDependencies": {
     "babel-core": "^6.26.0",

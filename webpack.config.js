@@ -5,11 +5,12 @@ var BUILD_DIR = path.resolve(__dirname, 'app/client/publish');
 var APP_DIR = path.resolve(__dirname, 'app/client/src');
 
 var config = {
-  entry: APP_DIR + '/index.js',
+  entry: ['babel-polyfill', APP_DIR + '/index.js'],
   output: {
     path: BUILD_DIR,
     filename: 'bundle.js'
   },
+  devtool: 'inline-source-map',
   module: {
     rules: [
       {
