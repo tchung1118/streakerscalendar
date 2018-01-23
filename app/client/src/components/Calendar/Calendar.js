@@ -5,7 +5,7 @@ class Calendar extends Component {
   render() {
     const arr = _.range(31);
     return (
-      <div>Calendar!</div>
+      <div>RELOAD!</div>
     );
   }
 }

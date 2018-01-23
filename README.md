@@ -12,6 +12,11 @@ Streakers Calendar is a calendar web application for streak runners, built using
 
     npm install
 
+### Watchman setup:
+
+    watchman watch-project $GOPATH/src/github.com/tchung1118/streakerscalendar
+    watchman -- trigger ./ jsfiles '**/*.js' -- ./node_modules/.bin/webpack -d
+
 ### Build:
 
     npm run build
