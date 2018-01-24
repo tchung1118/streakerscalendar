@@ -8,19 +8,24 @@ Streakers Calendar is a calendar web application for streak runners, built using
 
     git clone https://github.com/tchung1118/streakerscalendar $GOPATH/src/github.com/tchung1118/streakerscalendar
 
+### Node version used:
+
+    node==9.4.0
+    npm==5.6.0
+
 ### Install dependencies:
 
     npm install
 
-### Watchman setup:
-
-    watchman watch-project $GOPATH/src/github.com/tchung1118/streakerscalendar
-    watchman -- trigger ./ jsfiles '**/*.js' -- ./node_modules/.bin/webpack -d
-
-### Build:
+### Manual build:
 
     npm run build
 
+### To trigger build on change:
+
+    npm run watch
+
+You need [watchman](https://facebook.github.io/watchman/) for this
 ### Start the web server:
 
     revel run github.com/tchung1118/streakerscalendar
