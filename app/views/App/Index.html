@@ -4,7 +4,8 @@
     <title>{{.title}}</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="/public/css/bootstrap-3.3.6.min.css">
+    <!-- might have to switch to css package if custom theming is necessary -->
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.12/semantic.min.css"></link>
     <link rel="shortcut icon" type="image/png" href="/public/img/favicon.png">
     {{range .moreStyles}}
       <link rel="stylesheet" type="text/css" href="/public/{{.}}">
